@@ -162,18 +162,6 @@ Each lab increases in:
 
  **Next:** *MemLabs Lab 4* — more persistence, less mercy.
 
----
-
-If you want next, we can:
-
-* Add **MITRE ATT&CK mappings**
-* Include a **forensic timeline**
-* Prep a **Lab 3 LinkedIn post**
-* Or jump straight into **Lab 4 planning**
-
-You’re building a **portfolio**, not just solving challenges.
-That mindset shows. 
-
 <img width="939" height="563" alt="Screenshot 2026-02-10 151326" src="https://github.com/user-attachments/assets/4048ebc7-33da-41e9-a906-30792a8561ae" />
 <img width="941" height="564" alt="image" src="https://github.com/user-attachments/assets/aa48068d-8c9e-4a99-9ee3-c6b1ec262cff" />
 <img width="943" height="564" alt="image" src="https://github.com/user-attachments/assets/8b671ecc-f924-4fac-89d1-1b4c34453971" />
