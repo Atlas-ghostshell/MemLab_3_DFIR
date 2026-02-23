@@ -11,7 +11,7 @@ The system contained evidence of a **malicious script used to encrypt sensitive 
 
 The challenge required reconstructing a **two-part secret** by correlating memory artifacts, reversing malicious logic, and extracting hidden data — all from volatile memory.
 
----
+
 
 ##  Objectives
 
@@ -21,7 +21,7 @@ The challenge required reconstructing a **two-part secret** by correlating memor
 * Detect and extract steganographically hidden content
 * Reconstruct the final secret **without relying on disk artifacts**
 
----
+
 
 ##  Tools & Technologies
 
@@ -34,7 +34,7 @@ The challenge required reconstructing a **two-part secret** by correlating memor
 > AI was used strictly as an **assistant**, not an autonomous decision-maker.
 > All findings and commands were **manually reviewed and validated**.
 
----
+
 
 ##  Investigation Breakdown
 
@@ -58,7 +58,7 @@ This immediately suggested:
 * Manual execution or testing of a script
 * Output being written in plaintext after transformation
 
----
+
 
 ###  Malicious Script Recovery & Logic Analysis
 
@@ -69,7 +69,7 @@ The recovered Python script performed two sequential operations on user-supplied
 
 This confirmed the presence of **custom, reversible obfuscation** rather than strong encryption.
 
----
+
 
 ### 3️. Encrypted Output Analysis (Part One)
 
@@ -84,7 +84,7 @@ By:
 
 >  *The recovered value is intentionally redacted in this write-up.*
 
----
+
 
 ### 4️. Suspicious Media Discovery
 
@@ -105,7 +105,7 @@ This data:
 
 >  *The extracted content is intentionally redacted.*
 
----
+
 
 ##  Final Reconstruction (Obfuscated)
 
@@ -121,7 +121,7 @@ The complete value was reconstructed **only after correlating**:
 * Encoded output
 * Hidden image payload
 
----
+
 
 ##  Role of AI in the Investigation
 
@@ -138,7 +138,7 @@ AI (Gemini CLI, internally referred to as *Athena*) was used to:
 
 AI acted as a **force multiplier**, not a shortcut.
 
----
+
 
 ##  Key DFIR Takeaways
 
@@ -148,7 +148,7 @@ AI acted as a **force multiplier**, not a shortcut.
 * Steganography remains an effective secondary concealment layer
 * AI can improve speed and accuracy **without undermining learning**
 
----
+
 
 ##  Series Progress
 
